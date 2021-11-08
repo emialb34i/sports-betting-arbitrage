@@ -1,4 +1,4 @@
-def create_arb_matrices(odds):
+def create_arb_matrices(odds, verbose=False):
     '''
     Goes through each event and finds the bookies with the best odds for each possible outcome. Saves the best corresponding
     bookie and odds in an dictionary called arb_matrix for each event and returns a list of arb_matrices
@@ -12,8 +12,9 @@ def create_arb_matrices(odds):
     arb_matrices = []
     for event in odds:
 
-        print(f"{event['sport_title']} | {event['home_team']} - {event['away_team']}")
-        print('-'*50)
+        if verbose:
+            print(f"{event['sport_title']} | {event['home_team']} - {event['away_team']}")
+            print('-'*50)
 
         outcomes = []
         n_outcomes = len(event['bookmakers'][0]['markets'][0]['outcomes'])
@@ -24,7 +25,7 @@ def create_arb_matrices(odds):
 
         arb_matrix = {outcome: {'bookies': [], 'price': 0}
                         for outcome in outcomes}
-        arb_matrix["name"] = f"{event['sport_title']} | {event['home_team']} - {event['away_team']}"
+        arb_matrix["name"] = f"({event['sport_title']}) {event['home_team']} - {event['away_team']}"
         bookmakers = event['bookmakers']
 
         for bookie in bookmakers:
@@ -68,6 +69,7 @@ def calc_arb(arb_matrix, stake):
         Returns:
             arb_matrix (list): modified arb_matrix with possible arbirtage payoff and betting strategy if arbitrage is possible
     '''
+    arb_matrix = arb_matrix.copy()
     s = 0
     outcomes = list(arb_matrix.keys())
     for outcome in outcomes:

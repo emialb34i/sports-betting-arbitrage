@@ -1,0 +1,400 @@
+[
+    {
+        "Arizona Cardinals": {
+            "bookies": [
+                "Pinnacle"
+            ],
+            "price": 1.08
+        },
+        "San Francisco 49ers": {
+            "bookies": [
+                "Betfair"
+            ],
+            "price": 21.0
+        },
+        "name": "(NFL) San Francisco 49ers - Arizona Cardinals",
+        "arbitrage": true,
+        "nvig": 0.02645502645502651,
+        "profit": 2.6500000000000057,
+        "strat": [
+            95.05,
+            4.89
+        ]
+    },
+    {
+        "Green Bay Packers": {
+            "bookies": [
+                "Matchbook"
+            ],
+            "price": 48.0
+        },
+        "Kansas City Chiefs": {
+            "bookies": [
+                "MyBookie.ag"
+            ],
+            "price": 1.04
+        },
+        "name": "(NFL) Kansas City Chiefs - Green Bay Packers",
+        "arbitrage": true,
+        "nvig": 0.017628205128205177,
+        "profit": 1.7600000000000051,
+        "strat": [
+            2.12,
+            97.85
+        ]
+    },
+    {
+        "Detroit Red Wings": {
+            "bookies": [
+                "MyBookie.ag"
+            ],
+            "price": 2.0
+        },
+        "Vegas Golden Knights": {
+            "bookies": [
+                "Betclic"
+            ],
+            "price": 9.0
+        },
+        "name": "(NHL) Detroit Red Wings - Vegas Golden Knights",
+        "arbitrage": true,
+        "nvig": 0.38888888888888884,
+        "profit": 38.889999999999986,
+        "strat": [
+            69.44,
+            15.43
+        ]
+    },
+    {
+        "Indiana Pacers": {
+            "bookies": [
+                "William Hill"
+            ],
+            "price": 2.2
+        },
+        "Sacramento Kings": {
+            "bookies": [
+                "Unibet"
+            ],
+            "price": 2.75
+        },
+        "name": "(NBA) Sacramento Kings - Indiana Pacers",
+        "arbitrage": true,
+        "nvig": 0.18181818181818188,
+        "profit": 18.180000000000007,
+        "strat": [
+            53.72,
+            42.97
+        ]
+    },
+    {
+        "Orlando Magic": {
+            "bookies": [
+                "MyBookie.ag"
+            ],
+            "price": 5.75
+        },
+        "Utah Jazz": {
+            "bookies": [
+                "Pinnacle"
+            ],
+            "price": 1.66
+        },
+        "name": "(NBA) Orlando Magic - Utah Jazz",
+        "arbitrage": true,
+        "nvig": 0.22367731796752222,
+        "profit": 22.370000000000005,
+        "strat": [
+            21.28,
+            73.72
+        ]
+    },
+    {
+        "Milwaukee Bucks": {
+            "bookies": [
+                "Pinnacle"
+            ],
+            "price": 2.35
+        },
+        "Washington Wizards": {
+            "bookies": [
+                "Unibet",
+                "Betfair"
+            ],
+            "price": 2.04
+        },
+        "name": "(NBA) Washington Wizards - Milwaukee Bucks",
+        "arbitrage": true,
+        "nvig": 0.08427200667501045,
+        "profit": 8.430000000000007,
+        "strat": [
+            46.14,
+            53.15
+        ]
+    },
+    {
+        "Austin FC": {
+            "bookies": [
+                "Betfair",
+                "Matchbook"
+            ],
+            "price": 11.0
+        },
+        "Portland Timbers": {
+            "bookies": [
+                "MyBookie.ag"
+            ],
+            "price": 1.72
+        },
+        "Draw": {
+            "bookies": [
+                "Betfair"
+            ],
+            "price": 6.0
+        },
+        "name": "(MLS) Portland Timbers - Austin FC",
+        "arbitrage": true,
+        "nvig": 0.1610288935870331,
+        "profit": 16.099999999999994,
+        "strat": [
+            10.55,
+            67.5,
+            19.35
+        ]
+    },
+    {
+        "Colorado Rapids": {
+            "bookies": [
+                "MyBookie.ag"
+            ],
+            "price": 2.25
+        },
+        "Los Angeles FC": {
+            "bookies": [
+                "Unibet"
+            ],
+            "price": 15.0
+        },
+        "Draw": {
+            "bookies": [
+                "Matchbook"
+            ],
+            "price": 7.2
+        },
+        "name": "(MLS) Colorado Rapids - Los Angeles FC",
+        "arbitrage": true,
+        "nvig": 0.3500000000000001,
+        "profit": 35.0,
+        "strat": [
+            60.0,
+            9.0,
+            18.75
+        ]
+    },
+    {
+        "Real Salt Lake": {
+            "bookies": [
+                "Unibet",
+                "Betfair"
+            ],
+            "price": 4.5
+        },
+        "Sporting Kansas City": {
+            "bookies": [
+                "Betfair"
+            ],
+            "price": 1.92
+        },
+        "Draw": {
+            "bookies": [
+                "MyBookie.ag"
+            ],
+            "price": 4.0
+        },
+        "name": "(MLS) Sporting Kansas City - Real Salt Lake",
+        "arbitrage": true,
+        "nvig": 0.00694444444444442,
+        "profit": 0.6899999999999977,
+        "strat": [
+            22.38,
+            52.44,
+            25.17
+        ]
+    },
+    {
+        "Seattle Sounders FC": {
+            "bookies": [
+                "Unibet"
+            ],
+            "price": 3.5
+        },
+        "Vancouver Whitecaps FC": {
+            "bookies": [
+                "MyBookie.ag"
+            ],
+            "price": 3.0
+        },
+        "Draw": {
+            "bookies": [
+                "MyBookie.ag"
+            ],
+            "price": 3.25
+        },
+        "name": "(MLS) Vancouver Whitecaps FC - Seattle Sounders FC",
+        "arbitrage": true,
+        "nvig": 0.07326007326007322,
+        "profit": 7.329999999999998,
+        "strat": [
+            30.67,
+            35.78,
+            33.02
+        ]
+    },
+    {
+        "LA Galaxy": {
+            "bookies": [
+                "Matchbook"
+            ],
+            "price": 10.5
+        },
+        "Minnesota United FC": {
+            "bookies": [
+                "MyBookie.ag"
+            ],
+            "price": 4.0
+        },
+        "Draw": {
+            "bookies": [
+                "Matchbook"
+            ],
+            "price": 5.5
+        },
+        "name": "(MLS) LA Galaxy - Minnesota United FC",
+        "arbitrage": true,
+        "nvig": 0.472943722943723,
+        "profit": 47.28999999999999,
+        "strat": [
+            14.03,
+            36.82,
+            26.78
+        ]
+    },
+    {
+        "FC Dallas": {
+            "bookies": [
+                "Unibet",
+                "Matchbook"
+            ],
+            "price": 8.0
+        },
+        "San Jose Earthquakes": {
+            "bookies": [
+                "Betfair"
+            ],
+            "price": 2.24
+        },
+        "Draw": {
+            "bookies": [
+                "Unibet"
+            ],
+            "price": 4.7
+        },
+        "name": "(MLS) San Jose Earthquakes - FC Dallas",
+        "arbitrage": true,
+        "nvig": 0.21580547112462012,
+        "profit": 21.58,
+        "strat": [
+            15.2,
+            54.28,
+            25.87
+        ]
+    },
+    {
+        "Chicago Blackhawks": {
+            "bookies": [
+                "1xBet"
+            ],
+            "price": 2.54
+        },
+        "Nashville Predators": {
+            "bookies": [
+                "1xBet"
+            ],
+            "price": 2.51
+        },
+        "name": "(NHL) Chicago Blackhawks - Nashville Predators",
+        "arbitrage": true,
+        "nvig": 0.2078928380964331,
+        "profit": 20.790000000000006,
+        "strat": [
+            47.56,
+            48.12
+        ]
+    },
+    {
+        "Anaheim Ducks": {
+            "bookies": [
+                "Betclic"
+            ],
+            "price": 3.2
+        },
+        "St Louis Blues": {
+            "bookies": [
+                "1xBet"
+            ],
+            "price": 2.1
+        },
+        "name": "(NHL) Anaheim Ducks - St Louis Blues",
+        "arbitrage": true,
+        "nvig": 0.21130952380952384,
+        "profit": 21.129999999999995,
+        "strat": [
+            37.85,
+            57.68
+        ]
+    },
+    {
+        "Minnesota Wild": {
+            "bookies": [
+                "1xBet"
+            ],
+            "price": 2.64
+        },
+        "New York Islanders": {
+            "bookies": [
+                "1xBet"
+            ],
+            "price": 2.43
+        },
+        "name": "(NHL) Minnesota Wild - New York Islanders",
+        "arbitrage": true,
+        "nvig": 0.20968948746726523,
+        "profit": 20.97,
+        "strat": [
+            45.82,
+            49.78
+        ]
+    },
+    {
+        "Dallas Stars": {
+            "bookies": [
+                "1xBet"
+            ],
+            "price": 2.42
+        },
+        "Vancouver Canucks": {
+            "bookies": [
+                "1xBet"
+            ],
+            "price": 2.65
+        },
+        "name": "(NHL) Vancouver Canucks - Dallas Stars",
+        "arbitrage": true,
+        "nvig": 0.2094183689380944,
+        "profit": 20.939999999999998,
+        "strat": [
+            49.98,
+            45.64
+        ]
+    }
+]
